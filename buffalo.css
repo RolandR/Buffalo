@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+body{
+	overflow: hidden;
+	font-family: "Tahoma", sans-serif;
+}
+
+textarea,
+div [contenteditable="true"],
+#log{
+	box-sizing: border-box;
+	font-size: 14px;
+	border: 2px #DDDDDD solid;
+	outline: 2px #EEEEEE solid;
+	background-color: #FFFFFA;
+	white-space: pre;
+	overflow-y: auto;
+}
+
+canvas{
+	
+}
+
+#world{
+}
+
+#worldBackground{
+	position: absolute;
+	left: 0px;
+}
+
+#controls{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#log{
+	width: 300px;
+	height: 500px;
+}
+
+#log p{
+	padding: 3px;
+}
+
+#log p:nth-child(even){
+	background-color: rgba(128, 128, 0, 0.03);
+}
+
+#log p:hover{
+	background-color: rgba(128, 128, 0, 0.06);
+}
